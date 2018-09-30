@@ -14,21 +14,24 @@ public class MultidbinstanceApplication implements CommandLineRunner {
 	private MigrationService service;
 	
 	public static void main(String[] args) {
-		System.out.println("アプリケーションを開始します。");
+		System.out.println("アプリケーションをstartします。");
 		SpringApplication.run(MultidbinstanceApplication.class, args);
 	}
 
 	@Override
-	public void run(String... args) throws Exception {
-		System.out.println("開始：service.migrate1to2()");
-		System.out.println("開始：service.migrate1to2()");		
-		System.out.println("開始：service.migrate1to2()");		
-		System.out.println("開始：service.migrate1to2()");		
+	public void run(String... args) throws Exception {	
+		System.out.println("start：service.migrate1to2()");
+		System.out.println("start：service.migrate1to2()");
+		System.out.println("start：service.migrate1to2()");
+		System.out.println("start：service.migrate1to2()");
+		System.out.println("start：service.migrate1to2()");
+		
 		service.migrate1to2();	
-		System.out.println("終了：service.migrate1to2()");
-		System.out.println("終了：service.migrate1to2()");
-		System.out.println("終了：service.migrate1to2()");
-		System.out.println("終了：service.migrate1to2()");
+		System.out.println("end：service.migrate1to2()");
+		System.out.println("end：service.migrate1to2()");
+		System.out.println("end：service.migrate1to2()");
+		System.out.println("end：service.migrate1to2()");
+		System.out.println("end：service.migrate1to2()");
 	}
 }
 
