@@ -30,5 +30,7 @@ public class MigrationService {
 		users.stream().forEach(e -> {
 			mapper2.save(e);
 		});
+		
+		System.out.println("終了：migrate1to2");
 	}
 }
