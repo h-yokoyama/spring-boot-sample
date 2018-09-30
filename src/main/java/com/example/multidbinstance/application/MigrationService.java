@@ -31,6 +31,11 @@ public class MigrationService {
 			mapper2.save(e);
 		});
 		
+<<<<<<< HEAD
 		System.out.println("終了：migrate1to2");
+=======
+		System.out.println("終了:"
+				+ "migrate1to2");
+>>>>>>> branch 'master' of https://github.com/h-yokoyama/spring-boot-sample.git
 	}
 }
