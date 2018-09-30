@@ -15,6 +15,7 @@ public class MultidbinstanceApplication implements CommandLineRunner {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(MultidbinstanceApplication.class, args);
+		System.out.println("終了");
 	}
 
 	@Override
