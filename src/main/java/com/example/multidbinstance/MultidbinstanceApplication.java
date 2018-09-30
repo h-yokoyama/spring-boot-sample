@@ -20,7 +20,7 @@ public class MultidbinstanceApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("開始：service.migrate1to2()");
+		System.out.println("開始：service.migrate1to2()");		
 		service.migrate1to2();	
 		System.out.println("終了：service.migrate1to2()");
 	}
