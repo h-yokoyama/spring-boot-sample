@@ -14,6 +14,7 @@ public class MultidbinstanceApplication implements CommandLineRunner {
 	private MigrationService service;
 	
 	public static void main(String[] args) {
+		System.out.println("アプリケーションを開始します。");
 		SpringApplication.run(MultidbinstanceApplication.class, args);
 	}
 
