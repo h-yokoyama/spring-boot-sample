@@ -33,4 +33,4 @@ jobs:
         run: aws deploy create-deployment --application-name demoApplication --deployment-group-name demoFleet --github-location repository=h-yokoyama/spring-boot-sample,commitId="${{ github.sha }}" 
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
